@@ -1,5 +1,4 @@
 .App {
-  max-width: 600px;
   margin: 0 auto;
   padding: 20px;
   background-color: #f0f0f0;
@@ -53,4 +52,37 @@ button:disabled {
 
 .last-entries h2 {
   margin-top: 0;
+}
+
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.table {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.last-entries {
+  grid-column: 8;
+}
+
+.last-entries ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.last-entries li {
+  margin-bottom: 10px;
+}
+
+button {
+  margin-top: 10px;
 }
